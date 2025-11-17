@@ -13,13 +13,17 @@
         android:layout_height="200dp"
         android:text="Who is the 44th president of the United State?"
         android:textSize="40sp"
+        android:background="@drawable/card_background"
+        android:textColor="#000000"
         android:gravity="center" />
     <TextView
         android:id="@+id/flashcard_answer"
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:text="Barack Obama"
-        android:textSize="40sp"
+        android:textSize ="40sp"
+        android:background="#780000"
+        android:textColor = "#415a77"
         android:gravity="center"
         android:visibility="invisible"/>
 
